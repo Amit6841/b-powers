@@ -97,7 +97,7 @@ const ProductCards = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-dark-gray mb-6">
             Our{" "}
-            <span className="bg-gradient-to-r from-primary-blue to-primary-emerald bg-clip-text text-transparent">
+            <span className="bg-blue-700 bg-clip-text text-transparent">
               Products
             </span>
           </h2>

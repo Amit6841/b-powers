@@ -12,23 +12,20 @@ const Hero = () => {
   return (
     <section className="relative pt-24 pb-16 bg-hero-bg overflow-hidden">
       {/* Floating elements for visual appeal */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-primary-blue/10 rounded-full animate-bounce opacity-50"></div>
-      <div className="absolute top-40 right-20 w-16 h-16 bg-primary-emerald/10 rounded-full animate-pulse opacity-50"></div>
-      <div className="absolute bottom-20 left-1/4 w-12 h-12 bg-primary-gold/10 rounded-full animate-bounce opacity-50"></div>
-
+     
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
           <div className="text-center lg:text-left">
             {/* Badge */}
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-blue/10 text-primary-blue text-sm font-medium mb-6">
-              <span className="w-2 h-2 bg-primary-blue rounded-full mr-2 animate-pulse"></span>
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-blue/10 text-green-500 text-sm font-medium mb-6">
+              <span className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
               Empowering 63M+ MSMEs
             </div>
 
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              <span className="bg-gradient-to-r from-primary-blue to-primary-emerald bg-clip-text text-transparent">
+              <span className="bg-blue-700 bg-clip-text text-transparent">
                 Transform Your
               </span>
               <br />
@@ -43,7 +40,7 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
-              <Button className="bg-hero-gradient hover:scale-105 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl">
+              <Button className="bg-blue-700 hover:scale-105 transition-all duration-300 text-white font-semibold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl">
                 Get Started Now
                 <ChevronRight className="ml-2 h-5 w-5" />
               </Button>

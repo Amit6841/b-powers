@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <footer className="bg-dark-gray text-white">
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-primary-blue via-primary-emerald to-primary-gold py-16">
+      <div className="bg-blue-800 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
             Ready to Transform Your Business?
@@ -38,7 +38,7 @@ const Footer = () => {
             </Button>
             <Button
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-primary-blue px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300"
+              className="bg-white text-primary-blue hover:bg-gray-100 font-semibold px-8 py-4 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300"
             >
               Schedule Demo
             </Button>
@@ -53,10 +53,8 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 rounded-xl bg-hero-gradient flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">B</span>
-                </div>
-                <span className="font-bold text-xl">B-Power Industries</span>
+                
+                <span className="font-bold text-xl text-green-500">B-Power</span>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Empowering MSMEs with innovative supply chain finance solutions.
@@ -109,18 +107,11 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-gray-700 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0">
             <div className="text-gray-300 text-sm">
-              © 2024 B-Power Industries. All rights reserved.
+              © 2025 B-Power Industries. All rights reserved.
             </div>
 
-            <div className="flex items-center space-x-6 text-sm text-gray-300">
-              <span className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                <span>System Status: Operational</span>
-              </span>
-              <span>Version 2.1.0</span>
-            </div>
           </div>
         </div>
       </div>

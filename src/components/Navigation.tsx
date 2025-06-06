@@ -33,11 +33,8 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-xl bg-hero-gradient flex items-center justify-center">
-                <span className="text-white font-bold text-xl">B</span>
-              </div>
-              <span className="text-dark-gray font-bold text-xl">
-                B-Power Industries
+              <span className="text-dark-gray font-bold text-2xl text-green-500">
+                B-Power 
               </span>
             </div>
           </div>
@@ -59,7 +56,7 @@ const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button className="bg-hero-gradient hover:scale-105 transition-all duration-300 text-white font-semibold px-6 py-3 rounded-full text-lg shadow-lg hover:shadow-xl">
+            <Button className="bg-blue-700 hover:scale-105 transition-all duration-300 text-white font-semibold px-6 py-3 rounded-full text-md shadow-lg hover:shadow-xl">
               Get Started
             </Button>
           </div>

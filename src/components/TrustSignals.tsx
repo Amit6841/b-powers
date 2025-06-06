@@ -43,7 +43,7 @@ const TrustSignals = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-dark-gray mb-4">
             Trusted by{" "}
-            <span className="bg-gradient-to-r from-primary-blue to-primary-emerald bg-clip-text text-transparent">
+            <span className="bg-blue-700 bg-clip-text text-transparent">
               Industry Leaders
             </span>
           </h2>
@@ -125,14 +125,12 @@ const TrustCard = ({ item }: { item: any }) => {
 
   return (
     <div className="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-light-gray hover:border-primary-blue/20 hover:-translate-y-1">
-      {/* Icon Container */}
       <div
         className={`w-16 h-16 rounded-xl ${item.bgColor} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}
       >
         <IconComponent className={`h-8 w-8 ${item.iconColor}`} />
       </div>
 
-      {/* Content */}
       <div className="space-y-2">
         <h3 className="font-bold text-dark-gray text-lg group-hover:text-primary-blue transition-colors duration-300">
           {item.title}
@@ -145,7 +143,6 @@ const TrustCard = ({ item }: { item: any }) => {
         </p>
       </div>
 
-      {/* Hover Effect Indicator */}
       <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="w-8 h-1 bg-gradient-to-r from-primary-blue to-primary-emerald rounded-full"></div>
       </div>
