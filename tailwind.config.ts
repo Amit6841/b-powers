@@ -19,6 +19,19 @@ export default {
     },
     extend: {
       colors: {
+        // B-Power Industries Brand Colors
+        "primary-blue": "#2563EB",
+        "primary-emerald": "#059669",
+        "primary-gold": "#F59E0B",
+        "light-blue": "#3B82F6",
+        "brand-teal": "#14B8A6",
+        "brand-orange": "#F97316",
+        "dark-gray": "#111827",
+        "medium-gray": "#6B7280",
+        "light-gray": "#F3F4F6",
+        "brand-background": "#F8FAFC",
+
+        // Original shadcn colors for compatibility
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -62,6 +75,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "hero-gradient": "linear-gradient(135deg, #2563EB 0%, #059669 100%)",
+        "cta-gradient":
+          "linear-gradient(90deg, #2563EB 0%, #059669 50%, #F59E0B 100%)",
+        "hero-bg":
+          "radial-gradient(ellipse at center, rgb(248 250 252) 0%, rgb(239 246 255) 50%, rgb(236 253 245) 100%)",
+      },
+      fontFamily: {
+        inter: ["Inter", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
